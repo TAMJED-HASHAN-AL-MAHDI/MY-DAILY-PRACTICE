@@ -114,14 +114,57 @@
      border: 4px solid blue;
      background-color: red;
      transition: width 5s, height 5s, transform 5s;
-     
+
  }
 
  .box:hover {
-    
+
      width: 200px;
      height: 200px;
      background-color: green;
-transform: rotate(180deg)
-;
+     transform: rotate(180deg);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .bat {
+     transition: transform 0.2s ease-in;
+ }
+
+
+ .field:hover .bat {
+     transform: rotate(-50deg);
+     transform-origin: top right;
+ }
+
+ .field {
+     border: solid 1px;
+     width: 500pc;
+
+ }
+
+ .ball {
+     width: 50px;
+     height: 50px;
+     background-color: red;
+     border-radius: 25px;
+     position: relative;
+     left: 540px;
+       transition: transform 1s ease-out 0.3s;
+ }
+
+ .field:hover .ball{
+  transform: translate(500px);
  }
