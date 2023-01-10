@@ -139,12 +139,13 @@
 
 
 
- .baat {
+ .bat { 
+;
      transition: transform 0.2s ease-in;
  }
 
 
- .field:hover .baat {
+ .field:hover .bat {
      transform: rotate(-50deg);
      transform-origin: top right;
  }
